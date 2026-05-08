@@ -15,30 +15,4 @@ weapon = {
 }
 
 def strike(damage):
-
-
-
-
-
-
-
-
-
-"""""
-def choose_weapon(player):
-    print("\nChoose your weapon:")
-    for key, weapon in weapon.items():
-        print(f"{key}. {weapon['name']} (ATK: {weapon['atk']}, Skill 1: {weapon['s1']} damage, Special Skill: {weapon['ss']} damage)")
-
-    choice = input("Enter the number of your chosen weapon: ")
-
-    if choice in weapon:
-        player["weapon"] = weapon[choice]
-        print(f"You have chosen the {player['weapon']['name']}.")
-    else:
-        print("Invalid choice. Please try again.")
-        choose_weapon(player)
-
-"""""
-
-
+ pass
